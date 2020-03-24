@@ -13,7 +13,7 @@ Wait, what does that mean?
 
 watch this video: https://www.youtube.com/watch?v=QBqPzHEDzvo
 
-We want our VM to be able to access the "outside network", aka the internet...
+We want our VM to be able to access the host, and the "outside network" - aka the internet...
 
 When using NAT configuration, your host (windows PC...)
 will route network from the VM outside like your home router does. 
