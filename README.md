@@ -16,3 +16,6 @@ Each one contains a README.md with instructions...
 check out ubuntu directory!
 ### 2. download and install VMware Workstation Player
 Check out the vmware directory!
+### 3. make our VM remotely accessible to the host
+
+check out the remote access directory!
