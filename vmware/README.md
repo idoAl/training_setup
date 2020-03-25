@@ -27,7 +27,7 @@ Therefore, I created a "clone" of an Ubuntu machine **which I fully configured f
  so there is a workaround.
  
  You can find the "clone" in the google drive under VM, here: 
- https://drive.google.com/drive/folders/1t4kpLq1W1A79VKZZptLq9ngFpxXLg0_6
+https://drive.google.com/drive/folders/1t4kpLq1W1A79VKZZptLq9ngFpxXLg0_6
  
  And follow the instructions here in order to load it up:
  https://www.htpcguides.com/workaround-to-clone-vmplayer-virtual-machines/
