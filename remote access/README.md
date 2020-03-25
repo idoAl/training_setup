@@ -76,8 +76,9 @@ Read more at: https://itekblog.com/ssh-x11-forwarding-display-using-mobaxterm/
 ## Setting up remote PyCharm
 
 Now that you have an SSH server in  your VM, you can use PyCharm remotely.
-
 That means that you can edit your code on the host, and run it on the VM!
+
+Notice that this option is not available in the community edition (which you can get for free). 
 
 For help,
 check out this tutorial: https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html

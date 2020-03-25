@@ -16,6 +16,24 @@ https://www.vmware.com/il/products/workstation-player/workstation-player-evaluat
 
 After you download it just install. If you have any problem, google is your friend (There are tons of info online about VMware products)
 
+## Optional - Clone a VM
+You may face some trouble setting up everything.
+It's ok, since messing with all this IT things sucks and isn't a part of your training.
+
+Therefore, I created a "clone" of an Ubuntu machine **which I fully configured for you.**
+ You can just plug-and-play it.
+ Why I used quotes on "clone"? because the free (we love free..) version
+ of the VMware workstation we use does not support real clones/templates,
+ so there is a workaround.
+ 
+ You can find the "clone" under the sub-directory "Ubuntu Clone"
+ and follow the instructions here in order to load it up:
+ https://www.htpcguides.com/workaround-to-clone-vmplayer-virtual-machines/
+  
+ Note that you have to extract it...
+
+If you want to set up everything by yourself, which is the preferred method, follow the next section.
+
 ## Create an ubuntu virtual machine
 Launch the VMware workstation player. 
 
