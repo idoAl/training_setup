@@ -26,11 +26,15 @@ Therefore, I created a "clone" of an Ubuntu machine **which I fully configured f
  of the VMware workstation we use does not support real clones/templates,
  so there is a workaround.
  
- You can find the "clone" under the sub-directory "Ubuntu Clone"
- and follow the instructions here in order to load it up:
+ You can find the "clone" in the google drive under VM, here: 
+ https://drive.google.com/drive/folders/1t4kpLq1W1A79VKZZptLq9ngFpxXLg0_6
+ 
+ And follow the instructions here in order to load it up:
  https://www.htpcguides.com/workaround-to-clone-vmplayer-virtual-machines/
   
  Note that you have to extract it...
+ 
+ The username and password of the cloned machine are 'a'.
 
 If you want to set up everything by yourself, which is the preferred method, follow the next section.
 
