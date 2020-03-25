@@ -1,6 +1,6 @@
 # VM remote access
 
-Now wer'e going to do the cool things.
+Now we're going to do the cool things.
 
 We are going to set up a remote connection between the host and the VM.
 When we finish, we will be able to access a remote interpreter on PyCharm.
@@ -47,16 +47,16 @@ ssh will let us have a terminal from which we can execute commands on our VM.
 Read more about ssh here: https://en.wikipedia.org/wiki/Secure_Shell
 
 ### How to set it up?
-First we'll need to set up a ssh server on the VM.
+First we'll need to set up an ssh server on the VM.
 We are going to use OpenSSH which is an open source ssh server.
 
 * Run sudo apt install openssh-server
-* When it's finished, a ssh server daemon (https://en.wikipedia.org/wiki/Daemon_(computing)) should be running. 
+* When it's finished, an ssh server daemon (https://en.wikipedia.org/wiki/Daemon_(computing)) should be running. 
 Make sure by running "ps -e | grep ssh" and look for sshd (d stands for daemon)
 
 Check out more at: https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
-### Set up a ssh client
+### Set up an ssh client
 
 MobaXterm has a good ssh client.
 You can download the home edition at: https://mobaxterm.mobatek.net/download-home-edition.html

@@ -1,7 +1,7 @@
 # Downloading Ubuntu
 
 ### What is Ubuntu?
-A popular and user friendly linux distribution which wer'e going to use in our training.
+A popular and user friendly linux distribution which we're going to use in our training.
 
 Find more here: https://en.wikipedia.org/wiki/Ubuntu
 
