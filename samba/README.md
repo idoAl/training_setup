@@ -63,6 +63,6 @@ Make sure it is in your PATH.
 Since we love our PyCharm free, we don't have a remote python interpreter.
 I also didn't find any free plugin that can provide this feature...
 
-So to have some sort of a remote interpreter, open up your PyCharm terminal (alt + F12) use SSH:
+So to have some sort of a remote interpreter, open up your PyCharm terminal (alt + F12) and use SSH:
 Type in: ```ssh username@ip-address```. Now you have a terminal in PyCharm, and you can use the 
 python interpreter and debug using pdb.
