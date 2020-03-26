@@ -20,11 +20,13 @@ After you download it just install. If you have any problem, google is your frie
 You may face some trouble setting up everything.
 It's ok, since messing with all this IT things sucks and isn't a part of your training.
 
-Therefore, I created a "clone" of an Ubuntu machine **which I fully configured for you.**
- You can just plug-and-play it.
- Why I used quotes on "clone"? because the free (we love free..) version
- of the VMware workstation we use does not support real clones/templates,
- so there is a workaround.
+Therefore, I created a "clone" of an Ubuntu machine **which I fully configured for you**.
+You still have to configure a shared directory by yourself (in the following steps...)
+
+You can just plug-and-play the "clone".
+Why I used quotes on "clone" ? because the free (we love free..) version
+of the VMware workstation we use does not support real clones/templates,
+so there is a workaround.
  
  You can find the "clone" in the google drive under VM, here: 
 https://drive.google.com/drive/folders/1t4kpLq1W1A79VKZZptLq9ngFpxXLg0_6
@@ -48,4 +50,6 @@ Launch the VMware workstation player.
 * Then, use the recommended 20GB max disk size, and mark "Split virtual disk into multiple files"
 * Before you are done, make sure that the Network Adapter (listed in the hardware settings) is "NAT".
 We'll get to this later...
-* Finish! it takes some time so be patient.
+* Done! 
+
+The VM takes time to load so be patient.
