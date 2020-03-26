@@ -6,13 +6,15 @@ Unfortunately, this version of PyCharm does not support remote projects, so we h
 Our workaround would be to mount a shared directory from the VM and open it with PyCharm.
 We still won't have remote debugging in PyCharm, so we'll use pdb through SSH (:mask:).
 
+It might not be an aesthetic solution, but it should work fine.
+
 ## What's SMB?
 A protocol used for shared access to resources (like files...), mostly used in Windows. 
 Read more here: https://en.wikipedia.org/wiki/Server_Message_Block
 
-We want to mount a directory on the VM shared via SMB, so we'll have to use some sort of software
-that can implement the sharing of a directory using SMB protocol with Windows SMB client.
-We will use Samba, which is an open source.
+We want to mount a directory on the VM shared via SMB. We'll have to use some sort of software
+that implement this protocol and can provide access to the directory to our Windows client.
+We will use Samba, which is open source.
 
 ## Installing Samba on our Ubuntu machine
 
@@ -35,18 +37,23 @@ sudo smbpasswd -a { your Ubuntu username here }
 
 Now let's make sure that everything works. 
 Check your Ubuntu machine's ip address, and then open file explorer on your host (winkey + e).
-Enter \\\\*.\*.\*.\* in the address bar (the \\\\ prefix indicates that you are trying to access
-a directory shared through SMB).
-If you find your shared directory and you can access it, everything is good. Otherwise, 
+Enter \\\\*.\*.\*.\* in the address bar where *\.\*.\*.\* is the ip address of the Ubuntu machine. 
+The \\\\ prefix indicates that you are trying to access a directory shared through SMB.
+
+If you find your shared directory and you can access it, everything works good. Otherwise, 
 validate that you have done everything correctly and look online for help.
 
 
 
 ## Adding a network location for the shared directory 
+
 Follow the steps here:
 https://www.techrepublic.com/article/how-to-connect-to-linux-samba-shares-from-windows-10/
 
-Now you have a network location that points to your mount, and PyCharm can use a project directory in it.
+And use the ip address of your Ubuntu machine.
+
+Now you have a network location that points to your mount.
+It's supposed to behave like a normal directory, so PyCharm can have a project directory in it.
 
 ## Using python and pdb through SSH
 You will learn about pdb in the Python guide.
